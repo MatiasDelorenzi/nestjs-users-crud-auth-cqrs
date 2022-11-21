@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@queries/*": ["src/queries/*"],
+      "@commands/*": ["src/commands/*"],
+      "@services": ["src/services"],
+      "@controllers": ["src/controllers"],
+      "@config": ["src/config"],
+      "@entities": ["src/models/entities"],
+      "@dtos": ["src/dtos"],
+      "@constants": ["src/utils/constants"],
+      "@decorators": ["src/utils/decorators"],
+      "@enums": ["src/models/enums"],
+      "@classes": ["src/models/classes"],
+      "@functions": ["src/utils/functions"],
+      "@exceptions": ["src/exceptions"],
+      "@mocks": ["test/mocks"],
+      "@src/*": ["src/*"]
+    }
+  }
+}
