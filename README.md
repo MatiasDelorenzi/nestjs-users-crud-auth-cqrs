@@ -17,7 +17,7 @@ $ yarn install
 
 ## Running the app
 
-create an .env file and complete the required variables before running this commands. Also make sure you have postgreSQL installed or run
+create a .env file and complete the required variables before running this commands. Also make sure you have postgreSQL installed or run
 
 ```bash
 docker-compose --env-file .env up
