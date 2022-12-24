@@ -25,6 +25,8 @@ docker-compose --env-file .env up
 
 to create a container where postgreSQL and pgadmin instances are created.
 
+After that you can run the app with one of these commands:
+
 ```bash
 # development
 $ yarn start
